@@ -22,7 +22,7 @@ void ring_buffer_char_put(ring_buffer_char_t* ring_buffer, uint8_t c){
     }else{
         ring_buffer->fill_size++;
     }
-    printf("Put complete\n");
+    printf("Put char complete\n");
 }
 // Get char from RBC
 uint8_t ring_buffer_char_get(ring_buffer_char_t* ring_buffer){
