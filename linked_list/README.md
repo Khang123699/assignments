@@ -16,7 +16,7 @@ Run file `linked_list_test` to see the test result by command `./linked_list_tes
 
 ## 3. Test case overview
 
-**📝 Note:** Each test case uses a fresh list initialized via `list_init()` to ensure state isolation.
+** Note:** Each test case uses a fresh list initialized via `list_init()` to ensure state isolation.
 
 **TEST 1: Insert at the beginning (`put_head`)**
 - **Purpose:** Ensure `list_put_head` inserts data correctly at the first position.
