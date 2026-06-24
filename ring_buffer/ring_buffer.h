@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-/*RBC Struct*/
+/* Ring buffer structure */
 typedef struct {
     uint16_t tail_index;
     uint16_t head_index;
@@ -13,7 +13,7 @@ typedef struct {
     uint8_t* buffer;
 } ring_buffer_char_t;
  
-/*Declare functions*/
+/* Function declarations */
 void ring_buffer_char_init(ring_buffer_char_t* ring_buffer, void* buffer, uint16_t buffer_size);
 void ring_buffer_char_put(ring_buffer_char_t* ring_buffer, uint8_t c);
 uint8_t ring_buffer_char_get(ring_buffer_char_t* ring_buffer);
